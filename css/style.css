@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* akhir css reset */
+
+
+/* style */
+body {
+   background-color: #fff;
+   font-size: 24px;
+   line-height: 30px;
+}
+
+.container-utama {
+    width: 100%;
+    margin: auto;
+}
+
+/* header */ {
+
+}
+
+.img-header {
+    width: 100%;
+}
+/* akhir header */
+
+
+/* section music project */
+.container-utama {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.section-title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-title img {
+    
+    
+}
+
+.description-section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Interstate-Regular';
+}
+
+.description-section p {
+    padding-top: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+/* akhir section music project */
+
+
+/* section-discord */
+.container-discord {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 66px;
+    padding-top: 30px;
+}
+
+.title-discord {
+  
+}
+
+.title-discord img {
+    width: 100%;
+    height: 100%;
+}
+
+.title-discord .medium {
+    height: 100%;
+}
+/* akhir section discord */
+
+
+/* section-winner */
+.winner {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px
+}
+
+.title-winner img {
+    width: 60%;
+}
+
+.description-winner {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.description-winner p {
+   font-size: 25px;
+}
+
+.winner .link {
+    display: block;
+    margin-top: 50px;
+
+}
+
+.img-section-winner{
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.description-section-winner {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.description-section-winner p {
+
+}
+
+.link-btn {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.link-btn a {
+    display: block;
+    text-decoration: none;
+}
+
+.link-btn button {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 8px 6px;
+    text-align: center;
+    line-height: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c41330;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* akhir section winner */
+
+
+/* section mentor */
+.mentor {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.title-mentor {
+    width: 100%;
+    margin-top: 55px;
+    padding-top: 10px;
+}
+
+.title-mentor img {
+    width: 45%;
+}
+
+.mentor p {
+    width: 95%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.col-mentor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-col-mentor {
+
+}
+
+.title-col-mentor img {
+   width: 100%;
+}
+
+/* akhir-section-mentor */
+
+/* project-music */
+.project-music {
+    width: 80%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+
+}
+
+.more {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    padding: 5px 8px;
+    top: 75%;
+    right: 180px;
+    border: none;
+    border-radius: 11px;
+    transition: .7s;
+}
+
+.more:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+.title-project-music {
+    
+}
+
+.title-project-music img {
+    width: 480px;
+}
+/* akhir music project */
+
+/* the story */
+.the-story {
+    width: 82%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.title-the-story {
+    width: 500px;
+    margin: auto;
+}
+
+.description-section-story {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.section-band {
+    display: flex;
+    padding-top: 50px;
+}
+
+.title-band  {
+    width: 100%;
+}
+
+.title-band img {
+    width: 80%;
+    border-radius: 6px;
+}
+
+.title-band p {
+    width: 80%;
+    margin-left: 44px;
+    padding-top: 20px;
+}
