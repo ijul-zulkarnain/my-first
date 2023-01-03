@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+    
+    /* section winner */
+    .img-section-winner {
+        width: 90%;
+        height: 50%;
+        border: 2px solid red;
+    }
+
+    /* music project */
+    .title-project-music img {
+        width: 350px;
+    }
+
+    /* the story */
+    .the-story {
+        width: 90%;
+    }
+
+    .title-the-story {
+        width: 90%;
+    }
+
+    .section-band {
+        display: block;
+    }
+
+    .title-band {
+        width: 70%;
+        margin: 50px auto;
+        padding-top: 50px;
+}
+
+    /* image-comingson */
+    .button-comingsoon {
+        width: 180px;
+        height: 10px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .title-comingsoon .dua {
+        background-color: gray;
+    }
+
+    /* SECTION GOING DIGITAL WITH DISCORD */
+    .container-going-digital {
+        text-align: center;
+    }
+
+    .title-section-digital img {
+        margin-top: 50px;
+    }
+
+    .description-going-digital {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* footer */
+    .title-footer-img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .title-footer-img img{
+        width: 100%;
+        height: 130px;
+        padding-top: 50px;
+    }
+}

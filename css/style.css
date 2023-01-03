@@ -54,6 +54,7 @@ body {
    background-color: #fff;
    font-size: 24px;
    line-height: 30px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-utama {
@@ -289,7 +290,7 @@ body {
 }
 
 .title-project-music img {
-    width: 480px;
+    width: 440px;
 }
 /* akhir music project */
 
@@ -297,6 +298,7 @@ body {
 .the-story {
     width: 82%;
     margin: auto;
+    margin-top: 50px;
     padding-top: 50px;
     text-align: center;
 }
@@ -316,6 +318,7 @@ body {
 .section-band {
     display: flex;
     padding-top: 50px;
+    position: relative;
 }
 
 .title-band  {
@@ -327,8 +330,94 @@ body {
     border-radius: 6px;
 }
 
+.name-band-img {
+    height: 80px;
+}
+
 .title-band p {
     width: 80%;
     margin-left: 44px;
+    margin-bottom: 80px;
     padding-top: 20px;
+}
+
+.img-sosmed {
+    width: 98%;
+    margin: auto;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.img-sosmed a {
+    margin-right: 20px;
+}
+
+.img-sosmed a img {
+    width: 65px;
+    height: 50px;
+}
+/* akhir the story */
+
+/* the-digital-era */
+.container-digital-era {
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.description-digital-era {
+    width: 66%;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+/* akhir the-digital-era */
+
+
+/* image-comingsoon */
+.container-comingsoon {
+    width: 95%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-comingsoon {
+    margin-left: 20px;
+}
+
+.title-comingsoon img {
+    width: 100%;
+}
+
+.button-comingsoon {
+    width: 70%;
+    margin: auto;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: rgb(235, 114, 114);
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* akhir image-comingsoon */
+
+/* footer */
+.container-footer-img {
+    width: 80%;
+    margin: auto;
+}
+
+ h4 {
+    width: 100%;
+    background-color: #c41330;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
